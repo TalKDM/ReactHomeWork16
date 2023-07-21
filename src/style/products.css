@@ -1,0 +1,37 @@
+.products {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.product {
+    background-color: #dfdfdf;
+    border-radius: 20px;
+    width: 65%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #00d9e0;
+    border-radius: 25px;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3 ease;
+}
+
+.btn:hover {
+    background-color: #00b8be;
+}
+
+
+
+
+

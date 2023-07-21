@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00d9e0;
+    border-bottom: 2px solid black;
+}
+
+.nav h1 {
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+
+.nav a:hover {
+    color:rgb(0, 0, 0);
+}
